@@ -1,3 +1,3 @@
-// Package xyz exports types, functions, subpackages for provisioning xyz resources.
+// Package discordbot exports types, functions, subpackages for provisioning discordbot resources.
 //
-package xyz
+package discordbot

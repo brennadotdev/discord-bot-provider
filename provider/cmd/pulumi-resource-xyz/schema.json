@@ -1,8 +1,8 @@
 {
-    "name": "xyz",
+    "name": "discordbot",
     "version": "0.0.1",
     "resources": {
-        "xyz:index:Random": {
+        "discordbot:index:Random": {
             "properties": {
                 "length": {
                     "type": "integer"
@@ -33,7 +33,7 @@
         },
         "go": {
             "generateResourceContainerTypes": true,
-            "importBasePath": "github.com/pulumi/pulumi-xyz/sdk/go/xyz"
+            "importBasePath": "github.com/pulumi/pulumi-discordbot/sdk/go/discordbot"
         },
         "nodejs": {
             "dependencies": {

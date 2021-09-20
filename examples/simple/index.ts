@@ -1,5 +1,5 @@
-import * as xyz from "@pulumi/xyz";
+import * as discordbot from "@pulumi/discordbot";
 
-const random = new xyz.Random("my-random", { length: 24 });
+const random = new discordbot.Random("my-random", { length: 24 });
 
 export const output = random.result;
